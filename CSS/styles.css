@@ -2,7 +2,7 @@
   font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
-  src: url(/device/fonts/raleway/raleway-800.woff2) format("woff2");
+  src: url(fonts/raleway/raleway-800.woff2) format("woff2");
   font-display: swap;
 }
 
@@ -10,7 +10,7 @@
   font-family: "Rubik";
   font-style: normal;
   font-weight: 400;
-  src: url(/device/fonts/rubik/rubik-400.woff2) format("woff2");
+  src: url(fonts/rubik/rubik-400.woff2) format("woff2");
   font-display: swap;
 }
 
@@ -18,7 +18,7 @@
   font-family: "Rubik";
   font-style: normal;
   font-weight: 700;
-  src: url(/device/fonts/rubik/rubik-700.woff2) format("woff2");
+  src: url(fonts/rubik/rubik-700.woff2) format("woff2");
   font-display: swap;
 }
 
@@ -630,7 +630,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  font-family: "Raleway";
+  /* font-family: "Raleway"; */
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -698,7 +698,7 @@ body {
 
 .menu-item {
   list-style-type: none;
-  font-family: "Rubik";
+  /* font-family: "Rubik"; */
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -780,7 +780,7 @@ body {
 }
 
 .navigation-links {
-  font-family: "Raleway";
+  /* font-family: "Raleway"; */
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -927,7 +927,7 @@ body {
 .slider-header {
   position: relative;
   /* z-index: 0; */
-  font-family: "Raleway", sans-serif;
+  /* font-family: "Raleway", sans-serif; */
   font-size: 50px;
   line-height: 50px;
   width: 545px;
@@ -1969,7 +1969,7 @@ body {
 }
 
 .select-control {
-  font-family: "Rubik";
+  /* font-family: "Rubik"; */
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -2015,7 +2015,7 @@ body {
 }
 
 .button-download {
-  font-family: "Raleway";
+  /* font-family: "Raleway"; */
   font-style: normal;
   font-weight: 800;
   font-size: 16px;
@@ -2057,7 +2057,7 @@ body {
 
 .back-button,
 .forward-button {
-  font-family: "Raleway";
+  /* font-family: "Raleway"; */
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -2066,7 +2066,7 @@ body {
 }
 
 .pagination-button {
-  font-family: "Raleway";
+  /* font-family: "Raleway"; */
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
