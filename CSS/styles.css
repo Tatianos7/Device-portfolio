@@ -744,7 +744,7 @@ body {
   position: absolute;
   display: block;
   top: -10px;
-  left: 250px;
+  left: 270px;
   width: 50px;
   height: 50px;
   background: inherit;
@@ -1042,7 +1042,7 @@ body {
   font-size: 18px;
   font-weight: 800;
   line-height: 22px;
-  letter-spacing: 20%;
+  /* letter-spacing: 20%; */
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
@@ -1073,11 +1073,6 @@ body {
 
 .button:focus {
   outline: none;
-}
-
-.button:focus-visible.button::before {
-  outline: 2px solid #af4fff;
-  outline-offset: 4px;
 }
 
 /* секция 2 */
@@ -1117,26 +1112,6 @@ body {
 
 .categories-icon:active {
   opacity: 0.3;
-}
-
-.categories-item::before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 160px;
-  height: 253px;
-  z-index: 2;
-}
-
-.categories-item:focus {
-  outline: none;
-}
-
-.categories-item:focus-visible.categories-item::before {
-  outline: 2px solid #af4fff;
-  outline-offset: 4px;
 }
 
 /* секция 3 */
@@ -1239,12 +1214,6 @@ body {
   margin: 0;
   list-style-type: none;
 }
-
-/* .delivery-button {
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  text-transform: uppercase;
-} */
 
 .rare-item {
   display: flex;
@@ -1769,10 +1738,6 @@ body {
   right: -10px;
 }
 
-/* .range-toggle:focus {
-  outline: 3px solid #af4fff;
-} */
-
 .range-wrapper-input {
   display: flex;
   justify-content: center;
@@ -1901,11 +1866,9 @@ body {
 .filter-product {
   display: flex;
   flex-direction: column;
-  /* margin-top: 5px; */
 }
 
 .catalog-filter {
-  /* width: 200px; */
   margin-left: 60px;
   margin-right: 60px;
 }
@@ -2015,7 +1978,6 @@ body {
 }
 
 .button-download {
-  /* font-family: "Raleway"; */
   font-style: normal;
   font-weight: 800;
   font-size: 16px;
@@ -2057,7 +2019,6 @@ body {
 
 .back-button,
 .forward-button {
-  /* font-family: "Raleway"; */
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -2066,7 +2027,6 @@ body {
 }
 
 .pagination-button {
-  /* font-family: "Raleway"; */
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
